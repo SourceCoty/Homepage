@@ -1,0 +1,90 @@
+:root {
+    /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
+    --primary: #1950e2;
+    /* --primary: #0e3fe0; */
+    --primaryLight: #204184;
+    --primaryDark: #1a1342;
+    /* --primaryLight: #4eb3f6;
+    --primaryDark: #0e3cd5; */
+    --secondaryMain: #f6a184;
+    --secondary: #ecf0fd;
+    --secondaryLight: #ecf0fd;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4e4b66;
+    --bodyTextColorWhite: #fafbfc;
+    --navTextColor: #4e4b66;
+    --topperColor: #82565f;
+    --iconColor: #f4a91b;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1.1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPaddingNew: clamp(3.125rem, 3.125vw, 3.125rem) 1rem;
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    --fontPrimary:"Hanken Grotesk", sans-serif;
+    --fontPrimary: "Barlow", sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontPrimary);
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+}
+.cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--topperColor);
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+}
+
+.cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+    font-weight: 00;
+}
+
+.special-heading {
+    background: -webkit-linear-gradient(#ffd900, #e98024);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #ff7700;
+}
+
+.cs-logo {
+    font-weight: 800;
+    color: var(--primary);
+}
+
+.cs-bold {
+    font-weight: 700;
+}
