@@ -1,4 +1,4 @@
-/*-- -------------------------- -->
+/* /*-- -------------------------- -->
 <---     Mobile Navigation      -->
 <--- -------------------------- -*/
 body,
@@ -521,7 +521,7 @@ html {
       width: 100%;
       height: 100%;
       background: #F6EDDF;
-      opacity: 0.84;
+      opacity: 1;
       display: block;
       top: 0;
       left: 0;
@@ -860,7 +860,7 @@ html {
     #services-1558 .cs-card-group-topper {
         margin-bottom: -3rem;
     }
-}
+} 
 
 /*-- -------------------------- -->
 <---          Questions         -->
@@ -1034,6 +1034,7 @@ html {
         width: 100%;
         height: 100%;
         background: var(--primary);
+        /* /faf8fe */
         opacity: 0.03;
         position: absolute;
         display: block;

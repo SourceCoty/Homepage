@@ -88,3 +88,10 @@ body {
 .cs-bold {
     font-weight: 700;
 }
+
+.red {
+    background: -webkit-linear-gradient(#ff7f07, #7a0606);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
