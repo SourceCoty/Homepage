@@ -23,8 +23,8 @@
     /* 60px - 100px top and bottom */
     --sectionPaddingNew: clamp(3.125rem, 3.125vw, 3.125rem) 1rem;
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
-    --fontPrimary:"Hanken Grotesk", sans-serif;
-    --fontPrimary: "Barlow", sans-serif;
+    --fontPrimary: "Hanken Grotesk", sans-serif;
+    --fontPrimary: "Barlow","Lato", sans-serif;
 
 }
 
